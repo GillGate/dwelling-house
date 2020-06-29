@@ -130,12 +130,12 @@ h2 {
 	display: inline-block;
 	margin-top: 7px;
 	color: #2f1059;
-	text-decoration: none;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 11px 7px;
 	border: 1px solid #2f1059;
 	border-radius: 5px;
+	cursor: pointer;
 	transition: background .5s, color .5s;
 }
 .order-call__btn:hover {
@@ -180,11 +180,13 @@ h2 {
 	left: 50%;
 	margin-left: -390px;
 	width: 780px;
+	height: 240px;
 	z-index: 1;
 	margin-top: 416px;
 	margin-bottom: -29px;
 	color: #fbfafa;
 	text-align: center;
+	overflow-y: hidden;
 }
 .form__title {
 	font-size: 24px;
@@ -193,9 +195,7 @@ h2 {
 }
 .form__text {
 	font-size: 17px;
-}
-.form__input-block {
-	margin-top: 26px;
+	margin-bottom: 26px;
 }
 .form__input {
 	width: 200px;
@@ -206,7 +206,11 @@ h2 {
 	margin-right: 8px;
 	background: #e8def5;
 	border-radius: 7px;
-	border: none;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+}
+.form__input_wrong {
+	border: 2px solid #d22828;
 }
 .form__btn {
 	padding: 0 27px;
@@ -215,17 +219,37 @@ h2 {
 	color: #fff;
 	font-size: 17px;
 	text-decoration: none;
-	border: none;
+	border: 2px solid #d22828;
 	border-radius: 7px;
 	cursor: pointer;
 }
+.form__btn_disabled {
+	color: #aaa;
+}
+.form__loading {
+	margin-top: 20px;
+}
+.form__result {
+	margin-top: 35px;
+	color: #d22828;
+}
+.form__result img {
+	margin-top: -10px;
+	width: 40px;
+}
+.form__result_done {
+	height: 50px;
+	margin-top: 0;
+	color: #fff;
+	line-height: 50px;
+}
 .form__note {
 	color: #8c4eee;
-	padding-top: 35px;
+	margin-top: 35px;
 	padding-bottom: 15px;
 	font-size: 15px;
 }
-.form__note_border {
+.form__note-border {
 	border: 1px solid #8c4eee;
 	border-radius: 3px;
 	padding: 5px;
