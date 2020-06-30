@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Жилой Дом</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="header">
+			<div class="header__logo">
+				<img src="img/logo.png" alt="logo">
+			</div>
+			<ul class="header__list">
+				<li class="header__item">
+					<a href="#location">
+						Ифнраструктура	
+					</a>	
+				</li>
+				<li class="header__item">
+					<a href="#infra">
+						Планировки и цены
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="#equip">
+						Материалы и отделка
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="#document">
+						Документы
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="#document">
+						Контакты
+					</a>
+				</li>
+			</ul>
+			<div class="order-call">
+				<p class="order-call__number">
+					+7 (495) 544-23-12
+				</p>
+				<div class="order-call__btn">Заказать звонок</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="house">
+	<div class="container">
+		<div class="flat">
+			<p class="flat__text">
+				<span class="flat__text_bold">
+					Дом готов,
+				</span>
+				идёт внутренняя отделка. Срок сдачи:
+				<span class="flat__text_bold">
+					Февраль 2016
+				</span>
+			</p>
+			<h1 class="flat__title">
+				Ваша квартира в новострое ждет вас
+			</h1>
+			<p class="flat__text flat__text_lower">
+				Уютные квартиры в центре города и в 
+				<span class="flat__text_bold">
+					5 минутах от р. Волга
+				</span>
+			</p>
+		</div>
+		<div class="form">
+			<h3 class="form__title">
+				Запишитесь на просмотр прямо сейчас!
+			</h3>
+			<p class="form__text">
+				Покажем Вам квартиры в удобное для Вас время
+			</p>
+			<form action="send.php" class="form__wrapper">
+				<input type="text" name="name" class="form__input form__input_name" maxlength="30" placeholder="Имя" required>
+				<input type="tel" name="phone" class="form__input form__input-phone" placeholder="Телефон" required>
+				<input type="button" class="form__btn" value="Записаться на просмотр!">
+			</form>
+			<div class="form__loading"></div>
+			<div class="form__result"></div>
+			<div class="form__note">
+				Осталось всего 
+				<span class="form__note-border">
+					5
+				</span>
+				квартир!
+			</div>
+		</div>
+	</div>
+</section>
+<section class="facts">
+	<div class="container">
+		<ul class="facts__list">
+			<li class="facts__item facts__item_low">
+				<p class="facts__text">
+					<span class="facts__text_bold">
+						5 минут
+					</span>
+					до центра
+				</p> 
+			</li>
+			<li class="facts__item facts__item_middle">
+				<p class="facts__text">
+					<span class="facts__text_bold">
+						300 метров
+					</span>
+					до Волги
+				</p> 
+				
+			</li>
+			<li class="facts__item facts__item_high">
+				<p class="facts__text">
+					<span class="facts__text_bold">
+						Экологически чистое
+					</span>
+					место
+				</p> 	
+			</li>
+			<li class="facts__item facts__item_high">
+				<p class="facts__text">
+					<span class="facts__text_bold">
+					Бесплатная кладовка
+					</span>
+					в подвале
+				</p> 
+			</li>
+			<li class="facts__item facts__item_middle">
+				<p class="facts__text">
+					<span class="facts__text_bold">
+					Бесплатное парковочное место
+					</span>
+				</p> 
+			</li>
+			<li class="facts__item facts__item_low">
+				<p class="facts__text">
+					<span class="facts__text_bold">
+					Бюджетная отделка под ключ:
+					</span>
+					въехал и живи
+				</p> 
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="ready">
+	<div class="container">
+		<h3 class="ready__title">
+			Дом готов. Идёт внутреняя отделка
+		</h3>
+		<div class="ready__text">
+			Срок сдачи: Февраль 2016
+		</div>
+	</div>
+</section>
+<section id="location">
+	<div class="container">
+		<h2 class="location__title">
+			Идеальное расположение дома
+		</h2>
+		<p class="location__text">
+			Тихий и экологически чистый район
+		</p>
+		<ul class="zones__list">
+			<li class="zones__item">
+				<img src="img/reka.png" alt="reka" class="zones__image">
+				<h4 class="zones__title">
+					Близость к реке
+				</h4>
+				<p class="zones__text">
+					До Волги 300 метров
+				</p>
+			</li>
+			<li class="zones__item zones__item_lower">
+				<img src="img/les.png" alt="les" class="zones__image">
+				<h4 class="zones__title">
+					Зеленые зоны
+				</h4>
+				<p class="zones__text">
+					Березовая роща и сосновый бор
+				</p>
+			</li>
+			<li class="zones__item">
+				<img src="img/sosedi.png" alt="dvor" class="zones__image">
+				<h4 class="zones__title">
+					Соседи и атмосфера
+				</h4>
+				<p class="zones__text zones__text_last">
+					Коттеджи и деревенская застройка вокруг
+				</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="infra">
+	<div class="container">
+		<h2 class="infra__title">
+			Развитая инфраструктура
+		</h2>
+		<ul class="infra__list-block">
+			<li class="infra__list">
+				<h3 class="infra__list-tittle">
+					Социальные объекты
+				</h3>
+				<img src="img/shadow.png" class="infra__shadow" alt="shadow">
+				<ul class="infra__list-item">
+					<li class="infra__item">Волга 350м, центральный пляж 900м</li>
+					<li class="infra__item">Авто парковка 5м.</li>
+					<li class="infra__item">Игровая детская площадка 2м.</li>
+					<li class="infra__item">4 продуктовых магазина в пределах 500м.</li>
+					<li class="infra__item">Центр города: 4км.</li>
+					<li class="infra__item">Почта 150007: 600м.</li>
+				</ul>
+			</li>
+			<li class="infra__list">
+				<h3 class="infra__list-tittle">
+					Образовательные объекты
+				</h3>
+				<img src="img/shadow.png" class="infra__shadow" alt="shadow">
+				<ul class="infra__list-item">
+					<li class="infra__item">Детский сад №173 300м.</li>
+					<li class="infra__item">Школа №46 900м.</li>
+					<li class="infra__item">Школа №50 1300м.</li>
+					<li class="infra__item">Школа №97 1000м.</li>
+					<li class="infra__item">Гимназия №3 2400м.</li>
+				</ul>
+			</li>
+			<li class="infra__list infra__list_last">
+				<h3 class="infra__list-tittle">
+					Транспортные остановки
+				</h3>
+				<img src="img/shadow.png" class="infra__shadow" alt="shadow">
+				<ul class="infra__list-item">
+					<li class="infra__item">Союзная: 300м.</li>
+					<li class="infra__item">К-тр Дружба: 600м</li>
+					<li class="infra__item">Школа 50: 100м.</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="green">
+	<div class="container">
+		<ul class="data-list">
+			<li class="data-list__item">
+				<img src="img/timer.png" alt="timer" class="data-list__icon">
+				<p class="data-list__text">
+					<span class="data-list__text_bold">
+						До центра 5 минут на машине
+					</span>
+					<br>
+					или общ. транспорте
+				</p>
+			</li>
+			<li class="data-list__item">
+				<img src="img/society.png" alt="people" class="data-list__icon">
+				<p class="data-list__text">
+					<span class="data-list__text_bold">
+						3 школы и детский садик
+					</span>
+					<br>
+					в шаговой доступности
+				</p>
+			</li>
+			<li class="data-list__item">
+				<img src="img/links.png" alt="links" class="data-list__icon">
+				<p class="data-list__text data-list__text_last">
+					<span class="data-list__text_bold">
+						Вся необходимая инфраструктура
+					</span>
+					<br>
+					продумана и обеспечена
+				</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="construct">
+	<div class="container clearfix">
+		<h2 class="construct__title">
+			Продуманная конструкция дома
+		</h2>
+		<ul class="construct__list">
+			<li class="construct__item">
+				<h3 class="construct__item-title">
+					Утепленные стены
+				</h3>
+				<div class="construct__item-content">
+					<img src="img/brick.jpg" alt="brick">
+					<p class="construct__item-text">
+						Мы знаем как утеплить ваш дом, чтобы холода не пробрались к вам ни в какую холодную русскую зиму. Наши технологии по утеплению стен защитят вас в любые морозы!
+					</p>
+				</div>
+			</li>
+			<li class="construct__item">
+				<h3 class="construct__item-title">
+					Продумання кровля
+				</h3>
+				<div class="construct__item-content">
+					<img src="img/roof.jpg" alt="roof">
+					<p class="construct__item-text">
+						Только европейские технологии и стандарты по кровле домов, проверенные временем и успевшие себя оправдать. Нащи специалисты знают свое дело и сделают все, чтобы вам жилось максимально комфортно
+					</p>
+				</div>
+			</li>
+			<li class="construct__item">
+				<h3 class="construct__item-title">
+					Трубы будущего
+				</h3>
+				<div class="construct__item-content">
+					<img src="img/tube.jpg" alt="tube">
+					<p class="construct__item-text">
+						Будущее уже наступило. Построенная на века система водопровода и канализации - это выдержка прочности и закала, спроектировання отечественными специалистами только для вас со взглядом в будущее
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="equip">
+	<div class="container">
+		<h2 class="equip__title">
+			Комплектация
+		</h2>
+		<p class="equip__note">
+			В каждой квартире
+		</p>
+		<ul class="equip__list-block">
+			<li class="equp__list">
+				<ul class="equip__list-item-list">
+					<li class="equip__item">Газовый котёл: Название</li>
+					<li class="equip__item">Ванна: Металлическая</li>
+					<li class="equip__item">Умывальник: Керамический</li>
+					<li class="equip__item">Унитаз: Кермамический</li>
+					<li class="equip__item">Газовая плита: Четырёх конфорочная</li>
+				</ul>
+			</li>
+			<li class="equp__list">
+				<ul class="equip__list-item-list">
+					<li class="equip__item">Балкон: Застеклённый</li>
+					<li class="equip__item">Отдельная пола: Линолеум</li>
+					<li class="equip__item">Отделка пола в с/у: Плитка</li>
+					<li class="equip__item">Отделка стен: Водоэмульсионная</li>
+				</ul>
+			</li>
+			<li class="equp__list">
+				<ul class="equip__list-item-list equip__list-item-list_last">
+					<li class="equip__item">Дверь входная: Стальная</li>
+					<li class="equip__item">Двери межкомнатные: Деревянные</li>
+					<li class="equip__item">Окна: ПВХ</li>
+					<li class="equip__item">Отделка стен: Частично плитка</li>
+					<li class="equip__item">Отделка стен: Водоэмульсионная</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="document">
+	<div class="container">
+		<h2 class="document__title">
+			У нас есть все необходимые документы
+		</h2>
+		<p class="document__text">
+			Обеспечивающие надежность и Вашу защиту
+		</p>
+		<ul class="document__list">
+			<li class="document__item">
+				<img src="img/gramota-first.jpg" alt="1">
+			</li>
+			<li class="document__item">
+				<img src="img/gramota-second.jpg" alt="2">
+			</li>
+			<li class="document__item">
+				<img src="img/gramota-third.jpg" alt="3">
+			</li>
+			<li class="document__item">
+				<img src="img/gramota-four.jpg" alt="4">
+			</li>
+		</ul>
+	</div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<div class="foot__logo">
+			<img src="img/foot-logo.png" alt="logo">
+		</div>
+		<div class="foot__text-block">
+			<p class="foot__text">2020 Все права защищены</p>
+			<a href="#" class="foot__text foot__text_link">Политика конфиленциальности</a>
+		</div>
+		<div class="foot__address">
+			<span class="foot__address_bold">
+				Адрес офиса:
+			</span>
+			<p class="foot__address_text">
+				Ярославская область
+				<br>
+				р-н заволжский, ул. 3-я Тверицкая.32
+			</p>
+			<div class="email">
+				<span class="foot__address_bold foot__address_low">
+					E-mail: 
+				</span>
+				info@sitename.ru
+			</div>
+		</div>
+		<div class="order-call order-call_foot">
+			<p class="order-call__number order-call__number_foot">
+				+7 (495) 544-23-12
+			</p>
+			<div class="order-call__btn order-call__btn_foot">Заказать звонок</div>
+		</div>
+	</div>
+</footer>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
